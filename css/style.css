@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+            /* this is header section  */
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+}
+header ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 33px;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color: black;
+}
+header ul li a:focus{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+                /* This is Poster section  */
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.poster{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.poster-items h1{
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.poster-items p{
+    margin-top: 18px;
+    font-weight: 500;
+    color: gray;
+    font-size: larger;
+    line-height: 28px;
+}
+.poster-items a i{
+    color: gray;
+    margin-top: 20px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 100px;
+    border: 3px solid gray;
+    transition: .2s;
+}
+.poster-items a i:hover{
+    transition: .2s;
+    transform: scale(1.15);
+}
+
+
+
+                /* This is Portfolio section  */
+.port-items h1, .features-items h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 900;
+}
+.port-items p, .features-items p{
+    text-align: center;
+    margin-top: 18px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: larger;
+    line-height: 28px;
+}
+.port-gallery{
+    margin: 50px 20px ;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 22px;
+}
+.port-gallery .item{
+    transition: 0.3s;
+}
+.port-gallery .item:hover{
+    box-shadow: 10px 10px 22px 10px rgb(0 0 0 / 30%);
+    cursor: pointer;
+    transition: 0.3s;
+    transform: scale(1.02);
+}
+.port-gallery .item img{
+    max-width: 100%;
+}
+
+
+            /* This is Line section  */
+.line{
+    width: 3px;
+    margin: 65px auto;
+    height: 80px;
+    background-color: gray;
+}
+
+
+
+            /* This is Features section  */
+.feature-boxs{
+    margin: 70px 0px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.single-box{
+    background-color: antiquewhite;
+    padding: 21px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 14px rgb(0 0 0 / 30%);
+    transition: 0.4s;
+}
+.single-box:hover{
+    transition: 0.4s;
+    background-color: white;
+    color: black
+}
+.feature-img{
+    display: flex;
+    justify-content: center;
+}
+.feature-img img{
+    padding: 15px 0px;
+    width: 50px;
+}
+.single-box h5{
+    font-size: 20px;
+    text-align: center;
+}
+.single-box p{
+    font-weight: 500;
+    color: gray;
+    font-size: larger;
+    font-style: normal;
+}
+.single-box p:hover{
+    color: black;
+}
+
+
+
+/* This is Footer section  */
+footer{
+    background-color: rgb(18, 6, 44);
+}
+footer h1{
+    color: white;
+    line-height: 69px;
+    font-size: xxx-large;
+    padding: 50px 0px;
+    text-align: center;
+}
+.footer-button{
+    display: flex;
+    justify-content: center;
+}
+footer small{
+    color: white;
+    text-align: center;
+}
+.copy-right{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
